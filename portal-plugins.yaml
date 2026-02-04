@@ -2,8 +2,9 @@
 # Define the plugins to include when building the custom LumeWeb Portal
 
 plugins:
-  # Example plugins - uncomment and customize as needed
-  # - module: go.lumeweb.com/portal-plugin-dashboard
-  #   version: develop
-  # - module: go.lumeweb.com/portal-plugin-core
-  #   version: develop
+  - module: go.lumeweb.com/portal-plugin-core
+    version: b4ac33cb7c47fbbc0809132c90e2dc10a9cb9357
+  - module: go.lumeweb.com/portal-plugin-dashboard
+    version: 2064df82868ed85c66e8c03dd62d3984b0589600
+  - module: go.lumeweb.com/portal-plugin-ipfs
+    version: 4eab2d85bd7ce5ff004d9d5fd7526a37a4144369
