@@ -1,0 +1,58 @@
+# Git files
+.git
+.gitignore
+.gitattributes
+git-town.toml
+
+# GitHub files
+.github
+
+# Documentation
+README.md
+TESTING.md
+LICENSE
+CHANGELOG.md
+CONTRIBUTING.md
+
+# IDE files
+.vscode
+.idea
+*.swp
+*.swo
+*~
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Build artifacts
+*.log
+*.tmp
+dist/
+build/
+
+# Test files
+_test/
+*_test.go
+test/
+tests/
+
+# CI/CD
+.gitlab-ci.yml
+.travis.yml
+.circleci
+
+# Docker
+Dockerfile.*
+docker-compose*.yml
+.dockerignore
+
+# Example files (exclude from builds)
+*.example.yaml
+*.example.yml
+example-*
+
+# Other
+.env
+.env.*
+*.env.local
