@@ -31,9 +31,9 @@ COPY --from=builder /dist/portal /usr/local/bin/portal
 RUN addgroup -g 1000 portal && \
     adduser -D -u 1000 -G portal portal
 
-# Set up config directory for portal
-RUN mkdir -p /etc/lumeweb/portal && \
-    chown -R portal:portal /etc/lumeweb
+# Set up directories for portal
+RUN mkdir -p /etc/lumeweb/portal /home/portal && \
+    chown -R portal:portal /etc/lumeweb /home/portal
 
 USER portal
 
