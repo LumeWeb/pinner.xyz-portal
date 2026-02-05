@@ -9,3 +9,5 @@ plugins:
     version: 2064df82868ed85c66e8c03dd62d3984b0589600
   - module: go.lumeweb.com/portal-plugin-ipfs
     version: 410564a319c1ef6a5703e7acae4631fa16cbdd89
+  - module: go.lumeweb.com/portal-plugin-frontend
+    version: 52c3eb91bfb355addfdb9002902561ca32e2d332
