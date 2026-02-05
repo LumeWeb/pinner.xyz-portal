@@ -30,6 +30,11 @@ COPY --from=builder /dist/portal /usr/local/bin/portal
 # Set up non-root user
 RUN addgroup -g 1000 portal && \
     adduser -D -u 1000 -G portal portal
+
+# Set up config directory for portal
+RUN mkdir -p /etc/lumeweb/portal && \
+    chown -R portal:portal /etc/lumeweb
+
 USER portal
 
 # Set working directory
