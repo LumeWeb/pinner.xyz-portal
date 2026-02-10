@@ -1,7 +1,7 @@
 # Portal Plugins Manifest
 # Define the plugins to include when building the custom LumeWeb Portal
 
-portalVersion: d66a2a7e7ebf43ffc779f5d862d3392373c71629
+portalVersion: 979be8735f773a249f43787e31fd03e12dacd1f4
 plugins:
   - module: go.lumeweb.com/portal-plugin-core
     version: b4ac33cb7c47fbbc0809132c90e2dc10a9cb9357
