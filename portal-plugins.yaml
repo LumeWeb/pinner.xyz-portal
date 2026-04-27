@@ -11,3 +11,5 @@ plugins:
     version: dfca4815acd57728322addcb8ba1c52980326434
   - module: go.lumeweb.com/portal-plugin-frontend
     version: 52c3eb91bfb355addfdb9002902561ca32e2d332
+  - module: go.lumeweb.com/portal-plugin-billing
+    version: e9f237c27fb77b64abfb7659dda0174e9ab78804
