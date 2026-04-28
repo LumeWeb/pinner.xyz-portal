@@ -14,6 +14,6 @@ plugins:
   - module: go.lumeweb.com/portal-plugin-billing
     version: 4c85617716d23a18a7eb71377d665ba39779033d
   - module: go.lumeweb.com/portal-plugin-quota
-    version: edf2c041a1a01746e8a993d64f59411cb5c36198
+    version: 98dc0408352ee501d4759494098c5bad5b9111fb
   - module: go.lumeweb.com/portal-plugin-admin
     version: 6d71bdc4b29a476f558a2a67753739ce7de0c3c9
