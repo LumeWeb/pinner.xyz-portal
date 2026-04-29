@@ -10,10 +10,10 @@ COPY portal-plugins.yaml .
 # Optional: Copy custom schema
 # COPY schema.json /usr/local/share/portal-builder/schema.json
 
-# Build the portal with plugins
-# Environment variables can be set here or via ARG
+# Optional: Override portal version from YAML via build arg
+# If not set, portalVersion from portal-plugins.yaml is used
 ARG PORTAL_VERSION
-ENV PORTAL_VERSION=${PORTAL_VERSION:-develop}
+ENV PORTAL_VERSION=${PORTAL_VERSION}
 
 # Run the build script
 RUN build-portal
