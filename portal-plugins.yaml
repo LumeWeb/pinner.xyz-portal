@@ -17,3 +17,5 @@ plugins:
     version: 98ebac6a28fba8e8b3c528e0a39798f5ec2e535f
   - module: go.lumeweb.com/portal-plugin-admin
     version: 6d71bdc4b29a476f558a2a67753739ce7de0c3c9
+  - module: go.lumeweb.com/portal-plugin-sia
+    version: b34ccb3fa8f0c91fad7c255cc346ae7cee36eec2
