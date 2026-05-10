@@ -18,4 +18,4 @@ plugins:
   - module: go.lumeweb.com/portal-plugin-admin
     version: 6d71bdc4b29a476f558a2a67753739ce7de0c3c9
   - module: go.lumeweb.com/portal-plugin-sia
-    version: b34ccb3fa8f0c91fad7c255cc346ae7cee36eec2
+    version: 76c1fd99abd851229790b4cce691b7afff33bfce
