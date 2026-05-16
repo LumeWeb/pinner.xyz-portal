@@ -6,7 +6,7 @@ plugins:
   - module: go.lumeweb.com/portal-plugin-core
     version: b4ac33cb7c47fbbc0809132c90e2dc10a9cb9357
   - module: go.lumeweb.com/portal-plugin-dashboard
-    version: 572560c6efd0440e8e7c3d474aba8f9cf05cce69
+    version: d27705f976e40f4f5d51d7221f2c031d0a0fc5c6
   - module: go.lumeweb.com/portal-plugin-ipfs
     version: f28a3a83199be888f8405950c0b48933ad783e9f
   - module: go.lumeweb.com/portal-plugin-frontend
