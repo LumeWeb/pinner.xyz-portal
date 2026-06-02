@@ -16,4 +16,4 @@ plugins:
   - module: go.lumeweb.com/portal-plugin-quota
     version: v0.1.0
   - module: go.lumeweb.com/portal-plugin-admin
-    version: v0.1.0
+    version: cb63cb4b021afba2b07e299ad982284df53d4976
