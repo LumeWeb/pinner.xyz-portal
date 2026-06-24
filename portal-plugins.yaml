@@ -21,4 +21,4 @@ plugins:
     version: e648d50054f00666a00b9eb9b1dc6694230787b6
 replacements:
   - old: go.sia.tech/indexd
-    new: go.lumeweb.com/indexd@v0.0.0-20260624005442-65f7abbb7ea3'
+    new: go.lumeweb.com/indexd@v0.0.0-20260624005442-65f7abbb7ea3
