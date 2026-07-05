@@ -6,19 +6,19 @@ plugins:
   - module: go.lumeweb.com/portal-plugin-core
     version: 01b69e351918209d923c89cba83672a4cb664e09
   - module: go.lumeweb.com/portal-plugin-dashboard
-    version: 106b41874ca3ec3093f994b73b61077a25241bbf
+    version: 4398a203e408c454970a64f93dedcab2702427e4
   - module: go.lumeweb.com/portal-plugin-ipfs
-    version: cbcd0ecbb53120216b1b98b67f38083921af1d73
+    version: 3fe975e52fc25ff791b19b6bdc906c5f28772e33
   - module: go.lumeweb.com/portal-plugin-frontend
-    version: 87f7d1a3d90240553aae756a50937321bf8611fb
+    version: 8f6ea9bc51255a04d5ee8095228f9f6ea271436b
   - module: go.lumeweb.com/portal-plugin-billing
-    version: b5ca7baea6ac24ff0bfd357036c74ccd0ea76115
+    version: 4f6515563cc9f7639950ac8db7f92966b80259c3
   - module: go.lumeweb.com/portal-plugin-quota
-    version: f0497209a811a6c20a52eee02bee6c044537e684
+    version: c031e1ace06ea1d874e55cc7ebd8e673f5d354c5
   - module: go.lumeweb.com/portal-plugin-admin
-    version: 170ed31e9a975b97f4ee830a9d02f41b5e0d850f
+    version: d12647271406a22e122d2560510cb4d7fb419cd7
   - module: go.lumeweb.com/portal-plugin-onboarding
-    version: 1a535cc4e91cc9ed359e3d4d120306f62b63c282
+    version: ed9b8950ea451d7f8910d472d7bec87c40f2ebe6
   - module: go.lumeweb.com/portal-plugin-sia
     version: 8b55da8debdc8a4038af2b70c353b2d26e9cd30c
 replacements:
