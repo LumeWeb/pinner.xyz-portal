@@ -21,6 +21,8 @@ plugins:
     version: 7f29ad7bff282cdfe99037cbd467468bdc1f6da5
   - module: go.lumeweb.com/portal-plugin-sia
     version: a900b5ed71815245542d3acdf8298d10726bd47e
+  - module: go.lumeweb.com/portal-plugin-meta
+    version: c3a6e79bceddb7a95ddeb8f28a81d4b905ace49d
 replacements:
   - old: go.sia.tech/indexd
     new: go.lumeweb.com/indexd@v0.0.0-20260630071444-1576b7f97da5
