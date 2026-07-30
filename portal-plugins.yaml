@@ -1,7 +1,7 @@
 # Portal Plugins Manifest
 # Define the plugins to include when building the custom LumeWeb Portal
 
-portalVersion: 51304bbfe4d53e77f2811b41abc88d622c147368
+portalVersion: a6cf9c78580ce47034a7c0b26ff48ac9beb15973
 plugins:
   - module: go.lumeweb.com/portal-plugin-core
     version: 01b69e351918209d923c89cba83672a4cb664e09
@@ -22,7 +22,7 @@ plugins:
   - module: go.lumeweb.com/portal-plugin-sia
     version: 8088c6e9ffe1a6aee611d98fe1e92c05e86098aa
   - module: go.lumeweb.com/portal-plugin-meta
-    version: a2af1b131f98303e25eb523617362cc33e12793a
+    version: 1320db45923f1985afe3fc3384d3909347fa0ec5
 replacements:
   - old: go.sia.tech/indexd
     new: go.lumeweb.com/indexd@v0.0.0-20260630071444-1576b7f97da5
