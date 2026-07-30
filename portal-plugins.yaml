@@ -26,5 +26,7 @@ plugins:
 replacements:
   - old: go.sia.tech/indexd
     new: go.lumeweb.com/indexd@v0.0.0-20260730194108-ad3e1d05fade
+  - old: github.com/quic-go/quic-go
+    new: github.com/quic-go/quic-go@v0.60.0
   - old: github.com/quic-go/webtransport-go
     new: github.com/quic-go/webtransport-go@v0.11.1
