@@ -1,14 +1,14 @@
 # Portal Plugins Manifest
 # Define the plugins to include when building the custom LumeWeb Portal
 
-portalVersion: 2f21719b8ee55fc39efb11ba449f611a12a7955a
+portalVersion: ed9fd7b2b8cdfb4639fde9ed063c24495d7a6607
 plugins:
   - module: go.lumeweb.com/portal-plugin-core
     version: 01b69e351918209d923c89cba83672a4cb664e09
   - module: go.lumeweb.com/portal-plugin-dashboard
     version: fcf90d4324eeb22729adbbee2596338fdccb1d85
   - module: go.lumeweb.com/portal-plugin-ipfs
-    version: f6da36d24133e659dfeb8f0c4ad919f708bee219
+    version: 3d55348dd0b8762f65a862e6cc88dc14dd719b98
   - module: go.lumeweb.com/portal-plugin-frontend
     version: caaffa41854411f9305661245488bffc331e43f8
   - module: go.lumeweb.com/portal-plugin-billing
