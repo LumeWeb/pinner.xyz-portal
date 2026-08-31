@@ -20,7 +20,7 @@ plugins:
   - module: go.lumeweb.com/portal-plugin-onboarding
     version: ad1abad2be21b6bb92f50bd0c6f68a7250e8aab5
   - module: go.lumeweb.com/portal-plugin-sia
-    version: 6e0883d9f7740e29d22c3bf56236953405a4fc25
+    version: f9c7bb70f4b508ef6aa14546bb48cef39caf2007
   - module: go.lumeweb.com/portal-plugin-meta
     version: cac91f547ca0955304cebd6a16b1c51de1cc42a2
   - module: go.lumeweb.com/portal-plugin-mcp
