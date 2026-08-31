@@ -35,5 +35,5 @@ replacements:
     new: github.com/quic-go/quic-go@v0.60.0
   - old: github.com/quic-go/webtransport-go
     new: github.com/quic-go/webtransport-go@v0.11.1
-build_tags:
+buildTags:
   - no_tunnel
