@@ -1,18 +1,18 @@
 # Portal Plugins Manifest
 # Define the plugins to include when building the custom LumeWeb Portal
 
-portalVersion: 51304bbfe4d53e77f2811b41abc88d622c147368
+portalVersion: a1355610b2106bc89da91df1bfc538b6e497db46
 plugins:
   - module: go.lumeweb.com/portal-plugin-core
     version: 01b69e351918209d923c89cba83672a4cb664e09
   - module: go.lumeweb.com/portal-plugin-dashboard
-    version: fa71bb5211dc293d2986c077f15b4e459f7a0b69
+    version: fcf90d4324eeb22729adbbee2596338fdccb1d85
   - module: go.lumeweb.com/portal-plugin-ipfs
-    version: 67e5e98ac90790a03f77f6684c2c75ae5588fc34
+    version: 154b8931b524c05611385205ec93a7c4087fcffa
   - module: go.lumeweb.com/portal-plugin-frontend
     version: caaffa41854411f9305661245488bffc331e43f8
   - module: go.lumeweb.com/portal-plugin-billing
-    version: 1c02187c268efd037a886da6c1f6dcbd428b3bb4
+    version: 698cce266378d43f5012f8da0ab621de2586df11
   - module: go.lumeweb.com/portal-plugin-quota
     version: 35aad0d6a6b46bbc683346362f2ac6831c292e66
   - module: go.lumeweb.com/portal-plugin-admin
@@ -20,9 +20,20 @@ plugins:
   - module: go.lumeweb.com/portal-plugin-onboarding
     version: ad1abad2be21b6bb92f50bd0c6f68a7250e8aab5
   - module: go.lumeweb.com/portal-plugin-sia
-    version: 8088c6e9ffe1a6aee611d98fe1e92c05e86098aa
+    version: 524b33fdc2dccec419ee4fd2b9369d1352fdc046
   - module: go.lumeweb.com/portal-plugin-meta
-    version: a2af1b131f98303e25eb523617362cc33e12793a
+    version: cac91f547ca0955304cebd6a16b1c51de1cc42a2
+  - module: go.lumeweb.com/portal-plugin-mcp
+    version: aacee5d5f10568f6ce55548f647675849fd45511
+excludes:
+  - module: go.opentelemetry.io/contrib/propagators
+    version: v0.22.0
 replacements:
   - old: go.sia.tech/indexd
-    new: go.lumeweb.com/indexd@v0.0.0-20260630071444-1576b7f97da5
+    new: go.lumeweb.com/indexd@v0.0.0-20260831092940-91324c776f0a
+  - old: github.com/quic-go/quic-go
+    new: github.com/quic-go/quic-go@v0.60.0
+  - old: github.com/quic-go/webtransport-go
+    new: github.com/quic-go/webtransport-go@v0.11.1
+buildTags:
+  - no_tunnel
