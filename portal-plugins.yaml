@@ -23,6 +23,11 @@ plugins:
     version: 6e0883d9f7740e29d22c3bf56236953405a4fc25
   - module: go.lumeweb.com/portal-plugin-meta
     version: cac91f547ca0955304cebd6a16b1c51de1cc42a2
+  - module: go.lumeweb.com/portal-plugin-mcp
+    version: bd108801f678d2cecb11e252e296436fa42b653e
+excludes:
+  - module: go.opentelemetry.io/contrib/propagators
+    version: v0.22.0
 replacements:
   - old: go.sia.tech/indexd
     new: go.lumeweb.com/indexd@v0.0.0-20260730194108-ad3e1d05fade
@@ -30,3 +35,5 @@ replacements:
     new: github.com/quic-go/quic-go@v0.60.0
   - old: github.com/quic-go/webtransport-go
     new: github.com/quic-go/webtransport-go@v0.11.1
+build_tags:
+  - no_tunnel
