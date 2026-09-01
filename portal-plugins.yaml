@@ -1,7 +1,7 @@
 # Portal Plugins Manifest
 # Define the plugins to include when building the custom LumeWeb Portal
 
-portalVersion: 4f5b644a101b71c7fc88f50018ddd79fa8d80e7d
+portalVersion: 4780b61cb79acd673e8d24c397370b342afb6906
 plugins:
   - module: go.lumeweb.com/portal-plugin-core
     version: 01b69e351918209d923c89cba83672a4cb664e09
@@ -24,7 +24,7 @@ plugins:
   - module: go.lumeweb.com/portal-plugin-meta
     version: cac91f547ca0955304cebd6a16b1c51de1cc42a2
   - module: go.lumeweb.com/portal-plugin-mcp
-    version: faafcef75ae0526ea0e910b6c45ad7e7683f438c
+    version: 9ffb18a71e11da20d670f050409d10af0cb142ee
 excludes:
   - module: go.opentelemetry.io/contrib/propagators
     version: v0.22.0
