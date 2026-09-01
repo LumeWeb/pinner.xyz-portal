@@ -6,25 +6,25 @@ plugins:
   - module: go.lumeweb.com/portal-plugin-core
     version: 01b69e351918209d923c89cba83672a4cb664e09
   - module: go.lumeweb.com/portal-plugin-dashboard
-    version: fcf90d4324eeb22729adbbee2596338fdccb1d85
+    version: 08078e8241d75481d4ec2520f13a281fd2b3729f
   - module: go.lumeweb.com/portal-plugin-ipfs
     version: 154b8931b524c05611385205ec93a7c4087fcffa
   - module: go.lumeweb.com/portal-plugin-frontend
-    version: caaffa41854411f9305661245488bffc331e43f8
+    version: ea1ce8b9422ca2a15b8735c26c20bac8e0a3c52a
   - module: go.lumeweb.com/portal-plugin-billing
-    version: 698cce266378d43f5012f8da0ab621de2586df11
+    version: 9dff7b0fd994d1a52e32cf12ee69ba0ec615dc33
   - module: go.lumeweb.com/portal-plugin-quota
-    version: 35aad0d6a6b46bbc683346362f2ac6831c292e66
+    version: ab71cdb833dadcd639b5fa1d6f9b6fae421c254c
   - module: go.lumeweb.com/portal-plugin-admin
-    version: 39e590eb06d8ac87ba3ebec00202c97888510bc7
+    version: e6dea3a12b409198662dfab74ff638cb1e2cd533
   - module: go.lumeweb.com/portal-plugin-onboarding
-    version: ad1abad2be21b6bb92f50bd0c6f68a7250e8aab5
+    version: d94fad41e889d7e81719652f0d2250fbc6489fc2
   - module: go.lumeweb.com/portal-plugin-sia
     version: 524b33fdc2dccec419ee4fd2b9369d1352fdc046
   - module: go.lumeweb.com/portal-plugin-meta
     version: cac91f547ca0955304cebd6a16b1c51de1cc42a2
   - module: go.lumeweb.com/portal-plugin-mcp
-    version: dab0528b999e735a40fb222914057ff254f37fdf
+    version: e75c4fd877ba85229c732da3b9204eb47ff30653
 excludes:
   - module: go.opentelemetry.io/contrib/propagators
     version: v0.22.0
