@@ -8,7 +8,7 @@ plugins:
   - module: go.lumeweb.com/portal-plugin-dashboard
     version: 10a15e7bc5eb8e4110baa8bedd954c72581a5428
   - module: go.lumeweb.com/portal-plugin-ipfs
-    version: 154b8931b524c05611385205ec93a7c4087fcffa
+    version: 1f9bf131e3d9e8a556e25a56f87ed4a3694faa1b
   - module: go.lumeweb.com/portal-plugin-frontend
     version: 2772cdbc49aac47a7f49073ef1ff0dbb2e113103
   - module: go.lumeweb.com/portal-plugin-billing
@@ -24,7 +24,7 @@ plugins:
   - module: go.lumeweb.com/portal-plugin-meta
     version: cac91f547ca0955304cebd6a16b1c51de1cc42a2
   - module: go.lumeweb.com/portal-plugin-mcp
-    version: fbe16803ecbade018186dc6b99ee6e0cac1fec78
+    version: 440bb6b5606831b935623abf35fbe4db4c6c7769
 excludes:
   - module: go.opentelemetry.io/contrib/propagators
     version: v0.22.0
