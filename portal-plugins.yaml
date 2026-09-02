@@ -31,9 +31,7 @@ excludes:
 replacements:
   - old: go.sia.tech/indexd
     new: go.lumeweb.com/indexd@v0.0.0-20260831092940-91324c776f0a
-  - old: github.com/quic-go/quic-go
-    new: github.com/quic-go/quic-go@v0.60.0
-  - old: github.com/quic-go/webtransport-go
-    new: github.com/quic-go/webtransport-go@v0.11.1
+  - old: github.com/libp2p/go-libp2p
+    new: github.com/LumeWeb/go-libp2p@v0.0.0-20260902043403-e59b50d42d53
 buildTags:
   - no_tunnel
