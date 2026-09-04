@@ -8,7 +8,7 @@ plugins:
   - module: go.lumeweb.com/portal-plugin-dashboard
     version: e95a7bb2aea5677e20359c0710602f6bc51b42d2
   - module: go.lumeweb.com/portal-plugin-ipfs
-    version: 6d5ce2d4c7a41e2a459162c5cc0dfdf8c6076bee
+    version: cb15c0f620bc1ed30b7ec96d04bd0367ba861467
   - module: go.lumeweb.com/portal-plugin-frontend
     version: 2772cdbc49aac47a7f49073ef1ff0dbb2e113103
   - module: go.lumeweb.com/portal-plugin-billing
