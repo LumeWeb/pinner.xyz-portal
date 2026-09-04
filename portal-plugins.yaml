@@ -6,19 +6,19 @@ plugins:
   - module: go.lumeweb.com/portal-plugin-core
     version: 01b69e351918209d923c89cba83672a4cb664e09
   - module: go.lumeweb.com/portal-plugin-dashboard
-    version: e95a7bb2aea5677e20359c0710602f6bc51b42d2
+    version: 34c5da8341bb77abadc565ab3b9a235c989d68fc
   - module: go.lumeweb.com/portal-plugin-ipfs
     version: cb15c0f620bc1ed30b7ec96d04bd0367ba861467
   - module: go.lumeweb.com/portal-plugin-frontend
-    version: 2772cdbc49aac47a7f49073ef1ff0dbb2e113103
+    version: 123d4178f25831c24a17e7d2a45a682a11abde00
   - module: go.lumeweb.com/portal-plugin-billing
-    version: 711fd31b1187c0759e711535765f07d5910df050
+    version: 6ffe3760bad99810851f5310dcff83a2d330eb36
   - module: go.lumeweb.com/portal-plugin-quota
-    version: d63f9ea0a15cebb59276142d44dd3e4d834cccd5
+    version: 543ba74afdea57af0a1e32eba57b702fa35f7c84
   - module: go.lumeweb.com/portal-plugin-admin
-    version: 890e62451a0dfcf3c8f9c49952330dc179154656
+    version: 225c02a1ad4e82196e8bce63665c31d74cf3b520
   - module: go.lumeweb.com/portal-plugin-onboarding
-    version: 4a4313ebb7ed2fd47b416321860e162d962c32d8
+    version: 9dfe26493351f1082d4e2856436b667df2af9566
   - module: go.lumeweb.com/portal-plugin-sia
     version: 524b33fdc2dccec419ee4fd2b9369d1352fdc046
   - module: go.lumeweb.com/portal-plugin-meta
