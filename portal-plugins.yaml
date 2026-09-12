@@ -24,7 +24,7 @@ plugins:
   - module: go.lumeweb.com/portal-plugin-meta
     version: cac91f547ca0955304cebd6a16b1c51de1cc42a2
   - module: go.lumeweb.com/portal-plugin-mcp
-    version: a191ca0d983720aa8b8297af1d7bf0ef55d796e2
+    version: 9d43f54339bfc7cd29a3a3b22a9d88bd166703eb
 excludes:
   - module: go.opentelemetry.io/contrib/propagators
     version: v0.22.0
