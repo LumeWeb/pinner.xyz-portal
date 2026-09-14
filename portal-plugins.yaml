@@ -35,3 +35,5 @@ replacements:
     new: github.com/LumeWeb/go-libp2p@v0.0.0-20260902043403-e59b50d42d53
 buildTags:
   - no_tunnel
+gosumdb: off
+goproxy: direct
